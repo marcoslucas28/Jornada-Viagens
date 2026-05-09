@@ -17,6 +17,8 @@
 .card header p {
   font-size: 20px;
   font-weight: var(--text-weight);
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header h3 {
