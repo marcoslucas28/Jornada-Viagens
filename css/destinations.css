@@ -4,3 +4,39 @@
   position: static;
   padding: 0;
 }
+
+.destinations-items {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.destinations-items .item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  width: 312px;
+}
+
+.img-item {
+  height: 360px;
+  width: 312px;
+  background: url(../img/Tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 24px;
+}
+
+.destinations-items p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  padding: 0;
+  color: var(--text-primary-color);
+}
+
+.destinations-items footer .button {
+  text-align: center;
+  width: 312px;
+  font-weight: var(--title-weight);
+}
