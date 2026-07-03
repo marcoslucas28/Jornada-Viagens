@@ -60,6 +60,11 @@ body {
   margin: 16px auto 32px;
 }
 
+.section-subtitle {
+  color: var(--text-primary-color);
+  font-size: 28px;
+}
+
 .button {
   width: 200px;
   height: 64px;
