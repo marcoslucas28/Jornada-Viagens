@@ -63,7 +63,7 @@ body {
 .section-subtitle {
   color: var(--text-primary-color);
   font-size: 28px;
-  font-weight: bold;
+  font-weight: var(--title-weight);
   margin: 0;
 }
 

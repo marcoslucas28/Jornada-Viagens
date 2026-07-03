@@ -68,7 +68,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 980px) {
   .card {
     width: 420px;
     height: 308px;
@@ -83,7 +83,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1300px) {
   .card {
     width: 588px;
   }
