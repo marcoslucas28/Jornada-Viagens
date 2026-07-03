@@ -1,0 +1,24 @@
+.search-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.search-card {
+  background-color: var(--background-secondary-color);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  padding: 41px 16px;
+  margin: 0 auto;
+
+  width: 312px;
+  height: 220px;
+  text-align: center;
+}
+
+.search-card img {
+  width: 80px;
+}

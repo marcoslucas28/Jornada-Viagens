@@ -63,6 +63,8 @@ body {
 .section-subtitle {
   color: var(--text-primary-color);
   font-size: 28px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .button {
