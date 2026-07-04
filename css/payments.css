@@ -29,3 +29,36 @@
   background-size: cover;
   grid-column: span 2;
 }
+
+@media (min-width: 768px) {
+  .payments .image-gallery .image.first {
+    background: url(../img/gallery1-tablet.png);
+    background-size: cover;
+  }
+
+  .payments .image-gallery .image.second {
+    background: url(../img/gallery2-tablet.png);
+    background-size: cover;
+  }
+
+  .payments .image-gallery .image.thirdy {
+    background: url(../img/gallery3-tablet.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1440px) {
+  .payments .gallery-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .payments .image-gallery {
+    width: 790px;
+    margin: 0;
+  }
+
+  .payments .gallery-content .text-content {
+    width: 360px;
+  }
+}
