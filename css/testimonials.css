@@ -1,0 +1,6 @@
+.testimonials .testimonials-container article header {
+  background-color: transparent;
+  display: block;
+  position: static;
+  padding: 0;
+}
