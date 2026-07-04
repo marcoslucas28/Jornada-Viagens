@@ -1,0 +1,6 @@
+.text-content p {
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-primary-color);
+  margin-top: 24px;
+}
