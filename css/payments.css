@@ -4,3 +4,28 @@
   color: var(--text-primary-color);
   margin-top: 24px;
 }
+
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.payments .image-gallery .image.first {
+  background: url(../img/gallery1.png);
+  background-size: cover;
+}
+
+.payments .image-gallery .image.second {
+  background: url(../img/gallery2.png);
+  background-size: cover;
+}
+
+.payments .image-gallery .image.thirdy {
+  background: url(../img/gallery3.png);
+  background-size: cover;
+  grid-column: span 2;
+}
