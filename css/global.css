@@ -45,6 +45,11 @@ body {
   color: var(--text-primary-color);
 }
 
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -84,10 +89,27 @@ body {
   .section-title h2 {
     font-size: 32px;
   }
+
+  section {
+    width: 648px;
+    margin: 0 auto 88px;
+  }
 }
 
 @media (min-width: 1024px) {
   .button:hover {
     background-color: var(--primary-color);
+  }
+
+  section {
+    width: 900px;
+    margin: 0 auto 88px;
+  }
+}
+
+@media (min-width: 1440px) {
+  section {
+    width: 1200px;
+    margin: 0 auto 88px;
   }
 }
