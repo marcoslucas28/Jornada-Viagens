@@ -55,3 +55,21 @@ section.hero {
     padding: 88px 160px;
   }
 }
+
+/* Pacortes hero */
+
+.pacotes-hero {
+  height: 460px;
+  background: url(../img/destinations-hero.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 65px 24px;
+  box-sizing: border-box;
+}
+
+.pacotes-hero p {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
