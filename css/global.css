@@ -57,12 +57,28 @@ section {
   text-align: center;
 }
 
+.section-title.pacotes-hero-title h1 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: start;
+  color: var(--text-secondary-color);
+}
+
 .section-title hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
+}
+
+.section-title.pacotes-hero-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px 0;
 }
 
 .section-subtitle {

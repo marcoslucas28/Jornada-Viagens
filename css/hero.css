@@ -55,3 +55,45 @@ section.hero {
     padding: 88px 160px;
   }
 }
+
+/* Pacortes hero */
+
+.pacotes-hero {
+  height: 460px;
+  background: url(../img/destinations-hero.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 65px 24px;
+  box-sizing: border-box;
+}
+
+.pacotes-hero p {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
+
+@media (min-width: 768px) {
+  .pacotes-hero {
+    background: url(../img/pacotes-hero-tablet.png);
+    background-size: cover;
+    height: 620px;
+    padding: 209px 69px 107px 120px;
+  }
+
+  .pacotes-hero p {
+    font-size: 32px;
+    line-height: 150%;
+    width: 579px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pacotes-hero {
+    background: url(../img/pacotes-hero-desktop.png);
+    background-size: cover;
+    padding: 158px 0 0 120px;
+    background-position: center;
+  }
+}
