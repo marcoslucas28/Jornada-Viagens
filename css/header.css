@@ -60,6 +60,11 @@ nav {
   font-size: 24px;
 }
 
+.list-links li a.active {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
 @media (min-width: 768px) {
   .navigation-menu {
     margin-top: 0;
