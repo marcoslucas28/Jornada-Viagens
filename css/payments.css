@@ -5,6 +5,12 @@
   margin-top: 24px;
 }
 
+.text-content h3 {
+  color: var(--text-primary-color);
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
+
 .payments .image-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -19,13 +25,29 @@
   background-size: cover;
 }
 
+.payments .image-gallery .image.first.destinations-img {
+  background: url(../img/destinations-gallery1-mobile.png);
+  background-size: cover;
+}
+
 .payments .image-gallery .image.second {
   background: url(../img/gallery2.png);
   background-size: cover;
 }
 
+.payments .image-gallery .image.second.destinations-img {
+  background: url(../img/destinatinations-gallery2-mobile.png);
+  background-size: cover;
+}
+
 .payments .image-gallery .image.thirdy {
   background: url(../img/gallery3.png);
+  background-size: cover;
+  grid-column: span 2;
+}
+
+.payments .image-gallery .image.thirdy.destinations-img {
+  background: url(../img/destinations-gallery3-mobile.png);
   background-size: cover;
   grid-column: span 2;
 }
@@ -36,13 +58,28 @@
     background-size: cover;
   }
 
+  .payments .image-gallery .image.first.image.first.destinations-img {
+    background: url(../img/destinations-gallery1-desktop.png);
+    background-size: cover;
+  }
+
   .payments .image-gallery .image.second {
     background: url(../img/gallery2-tablet.png);
     background-size: cover;
   }
 
+  .payments .image-gallery .image.second.image.second.destinations-img {
+    background: url(../img/destinations-gallery2-desktop.png);
+    background-size: cover;
+  }
+
   .payments .image-gallery .image.thirdy {
     background: url(../img/gallery3-tablet.png);
+    background-size: cover;
+  }
+
+  .payments .image-gallery .image.thirdy.image.first.destinations-img {
+    background: url(../img/destinations-gallery3-desktop.png);
     background-size: cover;
   }
 }
@@ -51,6 +88,12 @@
   .payments .gallery-content {
     display: flex;
     justify-content: space-between;
+  }
+
+  .payments .gallery-content.destinations-imgs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .payments .image-gallery {
